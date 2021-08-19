@@ -1,0 +1,133 @@
+header{
+    width: 100%;
+    height: 30vh;
+}
+.ex1{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 60vh;
+    max-height: 900px;
+    width: 100vw;
+}
+.image{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 30%;
+    height: 30%;
+    
+}
+.menu{
+    margin-top: 5%;
+    width: 100%;
+    padding: 15px 300px;
+    display: flex;
+    justify-content: space-around;    
+}
+
+.menu a{
+    color: white;
+}
+h2{
+    color: white;
+}
+.parent-cell{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.section1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    justify-content: space-around; 
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    justify-content: space-around; 
+}
+.section3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    justify-content: space-around; 
+}
+.section4{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    justify-content: space-around; 
+}
+.section5{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    justify-content: space-around; 
+}
+.section6{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    justify-content: space-around; 
+}
+.section7{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+}
+body{
+    background-color: black;
+}
+.footer{
+    background-color: rgba(77, 75, 75, 0.027);
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.logo1{
+    margin-top: 5%;
+    width: 5%;
+    height: 5%;
+}
+footer{
+    height: 60vh;
+    width: 100vw;
+    background-color: rgb(48, 47, 47);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+.footer-column{
+    text-decoration: white;
+    margin-top: 5%;
+    padding: 0 50px;
+}
+.footer-column a{
+    color: white;
+}
+.other-pages{
+    margin-top: 5%;
+}
+.other-pages a{
+    color: white;
+}
+.other-links{
+    margin-top: 5%;
+}
+.other-links a{
+    color: white;
+}

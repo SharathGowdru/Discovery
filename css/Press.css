@@ -1,0 +1,143 @@
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Assets/Pressmain.jpg");
+    background-size: cover;
+    
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.logo{
+    width: 15%;
+    height: 15%;
+}
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu a{
+    margin-top: 5%;
+    width: 25%;
+    text-decoration: none;
+    color: white;
+}
+section{
+    color: white;
+    font-size: 3em;
+    padding: 50px 250px;
+    font-style: normal;
+}
+.parent{
+    background-color: whitesmoke;
+}
+.section1{
+    background-color: whitesmoke;
+    padding-left: 15%;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: whitesmoke;
+}
+.section2 .image{
+    width: 55%;
+    z-index: 0;
+}
+.section2 .content{
+    background-color: white;
+    z-index: 1;
+    margin-top: -5%;
+    margin-bottom: 10%;
+
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent1{
+    display: flex;
+    flex-direction: column;
+    height: 130vh;
+}
+.section6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section9{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.parent1 p{
+    font-size: 1.5em;
+}
+.section5{
+    padding-left: 12%;
+}
+.section12{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border: 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background-color: black;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.logo1{
+    margin-top: 5%;
+    width: 5%;
+    height: 5%;
+}
+footer{
+    height: 60vh;
+    width: 100vw;
+    background-color: rgb(48, 47, 47);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+.footer-column{
+    text-decoration: white;
+    margin-top: 5%;
+    padding: 0 50px;
+}
+.footer-column a{
+    color: white;
+}
+.other-pages{
+    margin-top: 5%;
+}
+.other-pages a{
+    color: white;
+}
+.other-links{
+    margin-top: 5%;
+}
+.other-links a{
+    color: white;
+}
